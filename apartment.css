@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  text-align:center  ;
+  padding: 30px;
+  background-color: #ee3aa9;
+  color: white;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ee43d1;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  background-color:  #ee43d1;
+}
+
+
+main {
+  padding: 20px;
+}
+
+.listing-section {
+  margin-bottom: 40px;
+}
+
+.listing-section h2 {
+  margin-bottom: 20px;
+  color: #ee3aa9;
+}
+
+.listing-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.listing-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  width: calc(33.333% - 20px);
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.listing-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.listing-card h3 {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.listing-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.listing-card ul li {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.listing-card button {
+  background-color: #ee3aa9;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #ee3aa9;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+footer {
+  background-color: #ee3aa9;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.site-footer {
+  background-color: #e953af;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #f7eded;
+}
+
+.footer-column p {
+  margin: 5px 0;
+  color: #f5f3f3;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #ece8e8;
+}
+
+@media (max-width: 768px) {
+  .listing-card {
+      width: calc(50% - 10px);
+      padding: 10px;
+  }
+}

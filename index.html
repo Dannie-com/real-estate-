@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Danielle Signature Homes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <h2>Danielle Signature Homes</h2>
+    <nav>
+      <a href="login.html">Login</a>
+      <a href="product.html">Products</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay">
+      <h1>Find Your Perfect Home in Lagos</h1>
+      <h4>Get listed,Modern homes fom Trusted Realtor</h4>
+
+      <form class="search-form">
+        <input type="text" placeholder="Type your search here" />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </section>
+
+
+
+
+  <h2 class="section-title">Featured Listings</h2>
+  <section class="properties">
+    <div class="listing-grid">
+      <div class="listing-card">
+        <img src="./images/1st page.avif" class="card-img-top" alt="Property">
+        <div class="card-content">
+          <h3>4-Bedroom Duplex in Lekki</h3>
+          <p>₦120M · 4 Beds · 3 Baths · Gated Estate</p>
+          <a href="products.html" class="btn"> Request a Tour</a>
+        </div>
+      </div>
+
+
+      <div class="listing-card">
+        <img src="./images/2nd pic.avif" class="card-img-top" alt="Property">
+        <div class="card-content">
+          <h3>Luxury Apartment in Ikoyi</h3>
+          <p>₦85M · 3 Beds · 2 Baths · Waterfront View</p>
+          <button>Request a Tour</button>
+        </div>
+      </div>
+
+      <div class="listing-card">
+        <img src="./images/high class.avif" class="card-img-top" alt="Property">
+        <div class="card-content">
+          <h3>Modern Villa in Banana Island</h3>
+          <p>₦250M · 5 Beds · 5 Baths · Private Pool</p>
+          <button>Request a Tour</button>
+        </div>
+
+      </div>
+
+  </section>
+
+  <div class="view-more-container">
+    <a href="apartment.html" class="btn-more">View More</a>
+  </div>
+
+
+  <h2 class="section-title">Latest Blog Post</h2>
+  <section class="properties">
+    <div class="listing-grid">
+      <div class="listing-card">
+        <img src="./images/sold out.webp" class="card-img-top" alt="Property">
+        <div class="card-content">
+          <p>We're excited to announce that this property has been successfully sold! Thank you for your interest.
+            Please explore our other listings for more available homes.</p>
+        </div>
+      </div>
+
+
+      <div class="listing-card">
+        <img src="./images/realtor.webp" class="card-img-top" alt="Property">
+        <div class="card-content">
+          <p>Discover comfort and elegance in this fully furnished duplex, featuring modern interiors, spacious rooms,
+            and premium amenities. Ready for immediate move-in schedule a tour today!</p>
+        </div>
+      </div>
+
+      <div class="listing-card">
+        <img src="./images/realtor 2.avif" class="card-img-top" alt="Property">
+        <div class="card-content">
+          <p>Experience grandeur in this fully furnished mansion featuring expansive living spaces, premium finishes,
+            and world-class amenities. Located in one of Lagos’ most prestigious estates, this home offers unmatched
+            comfort and style. Schedule a private tour today!</p>
+        </div>
+
+      </div>
+
+  </section>
+
+
+
+  <footer class="site-footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h4>About</h4>
+        <p>We help you find your dream home with ease and confidence across Nigeria.</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <p>View Apartments</p>
+        <p>Blog</p>
+        <p>Contact Us</p>
+        <p>FAQs</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Contact</h4>
+        <p>Email: support@dshomes.ng</p>
+        <p>Phone: +234 800 123 4567</p>
+        <p>Address: Lekki Phase 1, Lagos</p>
+      </div>
+
+      <div class="footer-column">
+        <h4>Follow Us</h4>
+        <p>Facebook | Twitter | Instagram</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      &copy; 2025 Danielle Signature Homes · All rights reserved
+    </div>
+  </footer>
+
+
+  <div id="emailPopup" class="modal-overlay">
+    <div class="modal">
+
+      <div class="modal-left">
+        <h2 class="text-3xl font-extrabold text-gray-800 mb-4 leading-tight">
+          BE THE FIRST TO KNOW ABOUT NEW PRODUCTS AND DEALS
+        </h2>
+        <p class="text-gray-700 mb-6">Sign up to receive our email newsletters!</p>
+        <input type="email" placeholder="Email" class="email-input mb-4" />
+        <button class="continue-button">Continue</button>
+      </div>
+
+      <div class="modal-right">
+        <img src="./images/house.avif" alt="Eight Ounce Products" class="rounded-lg object-cover">
+        <button id="closePopup" class="close-button" aria-label="Close pop-up">
+          &times;
+        </button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
